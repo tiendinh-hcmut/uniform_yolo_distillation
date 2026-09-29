@@ -1,0 +1,21 @@
+# Environments
+venv/
+
+# Datasets and Videos
+acb_raw_dataset/
+acb_raw_dataset_filtered/
+downloaded_videos/
+golden_dataset/
+dataset/
+*.mp4
+*.jpg
+*.png
+
+# Weights and Runs
+weights/
+runs/
+*.pt
+
+# Python caches
+__pycache__/
+*.pyc

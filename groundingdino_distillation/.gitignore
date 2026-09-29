@@ -1,0 +1,18 @@
+# Bỏ qua môi trường ảo
+venv/
+venv_dino/
+
+# Bỏ qua weights mô hình
+*.pt
+weights/
+runs/
+
+# Bỏ qua dữ liệu ảnh/video
+dataset/
+downloaded_videos/
+*.mp4
+*.jpg
+*.png
+
+# Bỏ qua file rác của Python
+__pycache__/
