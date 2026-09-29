@@ -7,7 +7,7 @@ This project utilizes large, zero-shot Vision Foundation Models as "Teacher" net
 ## 🚀 Pipeline Workflow
 1. **Teacher Inference & Auto-labeling:** Utilize zero-shot object detection models (YOLO-World, Grounding DINO) to scan raw video frames and automatically generate bounding box annotations for target classes.
 2. **Dataset Formatting:** Format the generated labels into YOLO standard structure (80/20 train/val split).
-3. **Student Training:** Train a lightweight Student model (YOLOv8 Nano) on the auto-generated dataset to learn the Teacher's knowledge.
+3. **Student Training:** Train a lightweight Student model (YOLO26n) on the auto-generated dataset to learn the Teacher's knowledge.
 4. **Real-time Video Inference:** Deploy the trained Student model on video streams using OpenCV to detect target uniform classes in real-time.
 
 ## 📂 Repository Structure
