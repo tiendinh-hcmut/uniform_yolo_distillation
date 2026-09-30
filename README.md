@@ -42,6 +42,7 @@ python 2_train_student.py
 ```
 
 **3. Run Real-time Video Inference:**
+*(Note: Open `3_video_demo.py` and update the `video_path` variable to point to your local video file before running this step).*
 ```bash
 python 3_video_demo.py
 ```
